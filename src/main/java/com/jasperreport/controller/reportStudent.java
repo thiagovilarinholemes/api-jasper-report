@@ -32,7 +32,7 @@ public class reportStudent {
 		
 		try {
 //			/* Localização do arquivo modelo de relatório nome_arquivo.jxml */
-			String filePath = ResourceUtils.getFile("classpath:Student.jrxml").getAbsolutePath();
+			String filePath = ResourceUtils.getFile("classpath:Student_v2.jrxml").getAbsolutePath();
 			
 			Subject subject1 = new Subject("Java", 90);
 			Subject subject2 = new Subject("MySQL", 75);
